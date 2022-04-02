@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+  text-decoration: none;
+  color: black;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-size: cover;
+  background-image: url(images/background.jpg);
+}
+
+.form-box {
+  width: 380px;
+  height: 480px;
+  background: rgba(255, 255, 255, 0.842);
+  box-shadow: 0 0 20px 9px #6865641e;
+  border-radius: 35px;
+  margin: 10% auto;
+}
+
+.logo {
+  font-size: 50px;
+  margin-left: 20px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.usr,
+.psw {
+  width: 335px;
+  height: 20px;
+  outline: none;
+  border-radius: 25px;
+  background-color: rgba(181, 196, 191, 0.705);
+  border: none;
+  padding: 10px;
+}
+
+.username {
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.username,
+.password {
+  margin-left: 10px;
+}
+
+.logın a {
+  background-color: #39aea8a9;
+  width: 50px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 20px;
+  position: absolute;
+}
+
+.frgt-psw {
+  margin-top: 80px;
+  margin-left: 10px;
+  display: inline-block;
+  position: absolute;
+}
+
+.logın a:hover {
+  border-radius: 25px;
+  transition: 0.5s;
+  transition-delay: 0.3s;
+}
+
+.c4ngen a {
+  position: absolute;
+  border: solid black 3px;
+  border-radius: 25px;
+  margin: 30px;
+  padding: 7px;
+}
+
+.c4ngen a:hover {
+  background: rgba(255, 255, 255, 0.842);
+}
